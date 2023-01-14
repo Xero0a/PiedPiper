@@ -1,0 +1,201 @@
+.navigation_container {
+  position: fixed;
+  display: flex;
+  background: #007765;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+nav li {
+  display: inline;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.header_logo {
+  width: 130px;
+  height: 45px;
+  left: 501px;
+  top: 20px;
+}
+
+.jumbotron {
+  background: url(/images/jumbotron.png) center no-repeat;
+  /*Установит фон элемента*/
+  background-size: cover;
+  /*Масштабирует фоновое изображение, согласно заданным размерам*/
+  padding-top: 160px;
+  /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  padding-bottom: 160px;
+  /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+
+.welcome {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 84px;
+  text-align: center;
+  color: white;
+}
+
+.problem_header {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 75px;
+  margin-top: 48px;
+  text-align: center;
+
+  color: #007765;
+}
+
+.problem_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 50px;
+  text-align: justify;
+  color: #000000;
+}
+
+.together {
+  background: url(/images/blue.png) center no-repeat;
+  background-size: cover;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.together_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  margin-left: 570px;
+  margin-right: 570px;
+  line-height: 56px;
+  text-align: center;
+  color: white;
+}
+
+.introducing_header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 75px;
+  text-align: center;
+  margin-top: 48px;
+  color: #007765;
+}
+
+.ppc {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin-left: 21%;
+  margin-right: 40px;
+}
+
+.introducing_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  margin-right: 22%;
+  margin-left: 21%;
+  text-align: justify;
+  line-height: 38px;
+  padding-bottom: 48px;
+  color: black;
+}
+
+.team_header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 10px;
+  margin-top: 58px;
+  text-align: center;
+  color: #007765;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  background: #eeeeee;
+  padding-top: 58px;
+  padding-bottom: 100px;
+}
+
+.team_photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  flex-basis: 20%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.name {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 21px;
+  /* identical to box height */
+  color: #007765;
+  justify-content: center;
+}
+
+.special {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+
+  background: #333333;
+}
+
+footer p {
+  margin-right: 750px;
+  margin-left: 750px;
+}
